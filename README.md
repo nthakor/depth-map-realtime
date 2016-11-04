@@ -7,3 +7,27 @@ We are using following papers:
 
 Both the papers are uploaded in the repository.
 
+Task Done:
+* Written a python code to take input from web-cam, find feature descriptors and display key-points
+
+To view run vread.py 
+Required Packages:
+* OpenCV
+* Numpy
+
+Detailed Project Description:
+* Find feature descriptors of a single frame
+* Create KDTree of the first frame descriptors
+* For each descriptors for next frames check whether nearest neighbor exist. 
+* Create new KDTree of descriptors with nearest neighbor
+* Repeat this process till end.
+
+Task to be performed:
+* Create a function which can track the changing position of feature. 
+* Develop running serial code in C++
+* Implement parallel version of KDTree using above mentioned papers. 
+* If time permits implement a parallel version of feature descriptors using following paper.
+
+Parallel SIFT paper:
+
+Acharya, Aniruddha, and R. Venkatesh Babu. "Speeding up SIFT using GPU." Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG), 2013 Fourth National Conference on. IEEE, 2013.
