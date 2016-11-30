@@ -17,7 +17,7 @@ CUDA 6.0 or above
 
 ### Running the code
 
-In the CMakeLists.txt file replace the name of the .cpp file r .cu file and do following steps.
+In the CMakeLists.txt file replace the name of the .cpp file or .cu file and do following steps.
 
 
 ```
