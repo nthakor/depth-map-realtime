@@ -1,0 +1,9 @@
+The Following Function written in any code are borrowed from Rosseta Code. (https://rosettacode.org/wiki/K-d_tree)
+
+* Nearest
+* Maketree
+* Find_median
+* dist
+* swap
+
+
